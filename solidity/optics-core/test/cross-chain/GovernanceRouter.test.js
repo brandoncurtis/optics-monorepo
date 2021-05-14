@@ -416,7 +416,7 @@ describe('GovernanceRouter', async () => {
     );
 
     // process message
-    await nonGovernorReplicaOnGovernorChain.testProcess(opticsMessage,);
+    await nonGovernorReplicaOnGovernorChain.testProcess(opticsMessage);
 
     // test implementation was upgraded
     versionResult = await mysteryMathProxy.version();
